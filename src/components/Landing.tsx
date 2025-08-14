@@ -12,12 +12,12 @@ function Landing() {
     { Icon: FaGithub, label: "GitHub", href: "https://github.com/Ipshit2" },
     { Icon: MdEmail, label: "Email", href: "mailto:ipshithaste@email.com" },
     { Icon: FaSquareXTwitter, label: "Twitter", href: "https://x.com/IpshitH" },
-    { Icon: FaInstagram, label: "Instagram", href: "https://instagram.com/yourusername" },
+    { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/ipshithaste_210/?hl=en" },
   ];
 
   return (
     <div className="relative flex h-auto p-15 space-x-30">
-      <div className="absolute top-1/2 left-1/2 translate-x-1/8 border-2 rounded-4xl border-[#242844] -translate-y-1/2 h-120 w-100 z-10">
+      <div className="absolute top-1/2 left-1/2 translate-x-1/8  -translate-y-1/2 h-120 w-100 z-10">
         <Image
           src="/photo.jpg"
           width={500}
