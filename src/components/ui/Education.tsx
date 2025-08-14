@@ -6,7 +6,7 @@ function Education() {
                 <ul className="space-y-8 w-min text-white">
                   <li className="w-max h-auto space-y-3">
                     <h1 className="tracking-wide font-semibold text-xl">
-                      Bachelor's in Information Technology
+                      Bachelor&apos;s in Information Technology
                     </h1>
                     <p className=" text-[#b5b5b5]">
                       St. Vincent Pallotti College of Engineering and Technology, Nagpur <br /> 2021-2025

@@ -1,6 +1,5 @@
 import Landing from "@/components/Landing";
 import About from "@/components/About";
-import Image from "next/image";
 import Work from "@/components/Work";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
