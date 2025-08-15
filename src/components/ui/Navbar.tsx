@@ -20,8 +20,8 @@ function Navbar() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="w-full flex items-center justify-between text-white px-6 md:px-20 py-6 font-Pop relative">
-      <h1  className="text-3xl font-bold uppercase tracking-wide">Ipshithaste</h1>
+    <nav id='navbar' className="w-full flex items-center justify-between text-white px-6 md:px-20 py-6 font-Pop relative">
+      <a href='/'><h1  className="text-3xl font-bold uppercase tracking-wide">Ipshithaste</h1></a>
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-20 items-center">
         <ul className="flex space-x-12 tracking-wider text-lg font-extralight">
@@ -81,7 +81,7 @@ function Navbar() {
             </li>
           ))}
           <li>
-            <a href="https://github.com/Ipshit2/" onClick={closeMenu} className="text-3xl block py-2">
+            <a href="https://github.com/Ipshit2/" onClick={closeMenu} className=" text-3xl block py-2">
               <FaGithub />
             </a>
           </li>
