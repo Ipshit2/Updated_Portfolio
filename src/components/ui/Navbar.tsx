@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { FaGithub } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
-
+import Link from 'next/link';
 interface NavLink {
   label: string;
   href: string;
@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <nav id='navbar' className="w-full flex items-center justify-between text-white px-6 md:px-20 py-6 font-Pop relative">
-      <a href='/'><h1  className="text-3xl font-bold uppercase tracking-wide">Ipshithaste</h1></a>
+      <Link href="/" onClick={() => window.location.reload()}><h1  className="text-3xl font-bold uppercase tracking-wide">Ipshithaste</h1></Link>
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-20 items-center">
         <ul className="flex space-x-12 tracking-wider text-lg font-extralight">
